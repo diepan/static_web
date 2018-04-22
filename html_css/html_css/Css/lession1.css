@@ -1,0 +1,103 @@
+title {
+text-align: center;
+color: green;
+}
+content {
+background-color: white;
+height: 500px;
+padding: 10px;
+}
+content_left {
+width: 672px;
+background-color: rgb(158, 243, 183);
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+margin-right:10px;
+}
+content_right {
+width: 45%;
+background-color: #9b58f3;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+}
+div1 {
+width: 413px;
+background-color: rgb(179, 162, 238);
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+div2 {
+width: 410px;
+background-color: rgb(126, 154, 245);
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+div3 {
+width: 410px;
+background-color: #f8ac7a;
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+div4 {
+width: 304px;
+background-color: rgb(126, 117, 165);
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+div5 {
+width:304px ;
+background-color:rgba(24, 167, 177, 0.164) ;
+padding:10px ;
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+div6 {
+width: 304px;
+background-color:rgb(191, 82, 235) ;
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+div7 {
+width: 302px;
+background-color:rgb(255, 104, 112) ;
+float: left;
+padding: 20px;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+.label_song {
+color: #1e0252;
+}
+.lyric_song {
+color:rgb(24, 24, 243) ;
+}
+
+

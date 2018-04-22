@@ -1,0 +1,42 @@
+table{
+    width: 650px;
+}
+table,
+th,
+td {
+    text-align: left;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+
+}
+
+th {
+    background-color: #03743b;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(218, 214, 214);
+}
+
+tr:hover {
+    background-color: rgb(211, 209, 209);
+}
+.div1{
+    border: 1px solid white;
+    width: 200px;
+    margin: auto;
+    padding: 7px;
+    background-color: #3fe90c;
+}
+.div2{
+    width: 650px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
