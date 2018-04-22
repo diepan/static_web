@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lập Trình Web</title>
+    <script>
+        var student = {
+            name: 'an',
+            age: 19,
+            learn: function () {
+                alert('toi dang hoc');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Kieu du lieu</h2>
+
+    <button onclick="getMyProfile('an', 19, 'student');">show my profile</button>
+    <button onclick="hideMyProfile()">hide my profile</button>
+
+    <p id="myProfile"></p>
+
+    <h3>student:</h3>
+    <button onclick="getNameStudent(student);">ten cua student</button>
+    <button onclick="getAgeStudent(student);">tuoi cua student</button>
+    <button onclick="learning(student);">hoc bai</button>
+
+    <p id="student"></p>
+
+ <script src="./js/lession4.js"></script>
+</body>
+
+</html>
