@@ -8,11 +8,20 @@
         height: 50px;
         background-color: gray;
     }
-        
-        </style>
+    </style>
 </head>
 <body>
-    <h2>Su kiem trong js</h2>
+    <h2>Events</h2>
+    <button onclick="clickToButton();">click chuat vao nut nay</button>
+    <button ondblclick="doubleClickMe();">double</button>
+    <button onmouseenter="onMouseEnterMe();">mouse</button>
+    <button onmouseleave="onMouseLeaveMe();">leave</button>
+    <input onkeydown="onKeyDownMe();">
+    <input onkeyup="onKeyUpMe();">
+    <span oncopy="copyMe()">copy me</span>
+    <span oncut="cutMe">cut me</span>
+    <input onpaste="pasteMe()">
+    <input onchange="changeMe();" value="hello">
     <button onclick="demo1();">Xem ket qua</button>
     <button onclick="hello();">Xin chao</button>
     <div id="demo" onmouseenter="this.style.backgroundColor='yellow'" 
@@ -25,9 +34,6 @@
     
     <input onchange="changeMe();" value="hello">
 
-
-
- 
     <script src="./js/lession6.js"></script>
 </body>
 </html>

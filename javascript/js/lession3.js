@@ -27,9 +27,17 @@ function introProfile() {
 }
 
 var result = introProfile()
+
 function introProfile2(name, age, job){
     return 'ten tuoi nghe nghiep cua toi la: ' + name + age + job;
 }
-var result = introProfile2('An',19,'student');
+var result2 = introProfile2('An',19,'student');
 
-document.getElementById('myProfile').innerHTML= result;
+function getmyProfile(name, age, jod){
+    var myProfile = 'ten tuoi nghe nghiep cua toi la: ' + name + age + job;
+    document.getElementById('myProfile').innerHTML = myProfile;
+
+}
+function hidemyProfile(){
+    document.getElementById('myProfile').innerHTML = '';
+}
