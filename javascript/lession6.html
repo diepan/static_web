@@ -2,10 +2,31 @@
 <html>
 <head>
     <title>Lập Trình Web</title>
+    <style type="text/css">
+    #demo{
+        width: 300px;
+        height: 50px;
+        background-color: gray;
+    }
+        
+        </style>
 </head>
 <body>
-    <h2>cac phuong thuc xu ly chuoi trong js</h2>
+    <h2>Su kiem trong js</h2>
+    <button onclick="demo1();">Xem ket qua</button>
+    <button onclick="hello();">Xin chao</button>
+    <div id="demo" onmouseenter="this.style.backgroundColor='yellow'" 
+    onmouseleave="this.style.backgroundColor='gray'"></div>
+   
+    <input type="text" onkeydown="this.style.backgroundColor='pink'"
+    onkeyup="this.style.backgroundColor='yellow'" placeholder="go ky tu vao day">
+    <textarea cols="50" rows="10" oncopy="copyMe()" oncut="cutMe()" onpaste="pasteMe()">
+        tai lieu huong dan hoc lap trinh web</textarea>
     
+    <input onchange="changeMe();" value="hello">
+
+
+
  
     <script src="./js/lession6.js"></script>
 </body>
