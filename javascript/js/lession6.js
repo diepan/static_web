@@ -30,23 +30,18 @@ function pasteMe(){
 function changeMe(){
     alert('change me');
 }
-
 function demo1() {
     var a = 100;
     var b = 50;
     var result = (a + b)*2;
     alert('Ket qua cua bieu thuc la:' + result);
-
 }
-
 function hello() {
     var name = "Nguyen Thanh Nhan";
     var year = 1993;
     var str = "Toi ten" + name + "sinh nam" + year;
     alert(str);
 }
-
-
 function copyMe() {
     alert('ban vua sao chep noi dung cua phan tu nay');
 }
