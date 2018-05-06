@@ -36,6 +36,6 @@ function validatePass() {
     var pass1 = document.getElementById('pass1').value;
     var pass2 = document.getElementById('pass2').value;
     if(pass1 != pass2) {
-        document.getElementById('errorpass').innerHTML = "Mật khẩu xãc nhận không đúng";
+        document.getElementById('errorpass').innerHTML = "Mật khẩu xác nhận không đúng";
     }
 }
