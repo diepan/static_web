@@ -15,11 +15,11 @@
             margin: auto;
             
         }
-        .fromData {
+        .formData {
             margin: 40px, 50px;
             
         }
-        .fromData input {
+        .formData input {
             font-size: 16px;
             height: 40px;
             width: 573px;
@@ -28,11 +28,11 @@
             border-color: rgba(104, 82, 51, 0.445);
             padding-left: 5px;
         }
-        .fromData .half {
+        .formData .half {
             width: 45%;
             
         }
-        .fromData .end {
+        .formData .end {
             float: right;
         }
         button {
@@ -47,33 +47,42 @@
 
 
         }
+        span {
+            color: red;
+            margin: 0px 10px 10px 10px ;
+            display: block;
+
+        }
     </style>
 </head>
 
 <body>
     <h1>Đăng ký tài khoản</h1>
     <div class="container">
-    <from>
-        <div class="fromData">
-            <input type="text" placeholder="Họ và Tên" name="" />
+        <div class="formData">
+            <input id="fullName" type="text" placeholder="Họ và Tên" name="" />
+            <span id="errorFullName"></span>
         </div>
-        <div class="fromData">
-            <input type="text" placeholder="Email" name=""/>
+        <div class="formData">
+            <input id="address" type="text" placeholder="Email" name=""/>
+            <span id="errorEmail"></span>
+
         </div>
 
-        <div class="fromData">
-            <input type="text" placeholder="Số điện thoại" name=""/>
+        <div class="formData">
+            <input id="phone" type="text" placeholder="Số điện thoại" name=""/>
+            <span id="errorPhone"></span>
         </div>
 
-        <div class="fromData">
-            <input type="text" placeholder="Mật Khẩu" name="" class="half"/>
-            <input type="text" placeholder="Xác nhận mật khẩu" name="" class="half end"/>
+        <div class="formData">
+            <input id="pass1" type="text" placeholder="Mật Khẩu" name="" class="half"/>
+            <input id="pass2" type="text" placeholder="Xác nhận mật khẩu" name="" class="half end"/>
+            <span id="errorpass"></span>
         </div>
         <div >
-            <button>ĐĂNG KÝ</button>
+            <button onclick="submitForm();">ĐĂNG KÝ</button>
          </div>
 
-    </from>
 
     </div>
 
